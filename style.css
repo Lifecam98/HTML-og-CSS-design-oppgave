@@ -28,6 +28,9 @@ body {
 	.luxuryCard {
 		border-radius: 0px 0px 10px 10px;
 	}
+	body {
+		background-color: aqua;
+	}
 }
 
 .carCards {
