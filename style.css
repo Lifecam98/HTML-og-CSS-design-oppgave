@@ -25,12 +25,11 @@ body {
 	.sedanCard {
 		border-radius: 10px 10px 0px 0px;
 	}
-
 	.luxuryCard {
 		border-radius: 0px 0px 10px 10px;
 	}
 	body {
-		background-color: aqua;
+		background-color: rgb(255, 255, 255);
 	}
 }
 
