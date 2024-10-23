@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+	transition: 0.2s;
+	font-family: "Lexend Deca", Arial, sans-serif;
+	font-weight: 200;
+}
+
+body {
+	background-color: black;
+}
+:root {
+	--sedan-clr: rgb(207, 136, 3);
+	--suv-clr: rgb(0, 107, 99);
+	--luxury-clr: rgb(2, 62, 51);
+}
+
+.carCards {
+	display: flex;
+	flex-direction: row;
+	min-height: 70svh;
+	max-width: 100svh;
+	padding: 50px;
+}
+
+.sedanCard {
+	background-color: var(--sedan-clr);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 30px;
+	padding-top: 0px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.suvCard {
+	background-color: var(--suv-clr);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 30px;
+	padding-top: 0px;
+}
+
+.luxuryCard {
+	background-color: var(--luxury-clr);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 30px;
+	padding-top: 0px;
+	border-radius: 0px 10px 10px 0px;
+}
+h1 {
+	font-family: "Big Shoulders Display", Arial, sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+}
+
+p {
+	font-size: 13px;
+}
+
+button {
+	width: 120px;
+	height: 40px;
+	border-radius: 25px;
+	border: none;
+	margin-top: 50px;
+}
+button:hover {
+	background-color: rgb(166, 165, 164);
+}
+.sedanCard button {
+	color: var(--sedan-clr);
+}
+
+.suvCard button {
+	color: var(--suv-clr);
+}
+
+.luxuryCard button {
+	color: var(--luxury-clr);
+}
+
+.carIcon {
+	max-height: 10%;
+	max-width: 30%;
+}
