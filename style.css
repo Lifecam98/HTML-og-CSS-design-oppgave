@@ -17,7 +17,7 @@ body {
 	--luxury-clr: rgb(2, 62, 51);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 40em) {
 	.carCards {
 		flex-direction: column;
 	}
