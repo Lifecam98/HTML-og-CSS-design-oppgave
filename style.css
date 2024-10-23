@@ -10,6 +10,7 @@
 body {
 	background-color: black;
 }
+
 :root {
 	--sedan-clr: rgb(207, 136, 3);
 	--suv-clr: rgb(0, 107, 99);
@@ -69,9 +70,11 @@ button {
 	border: none;
 	margin-top: 50px;
 }
+
 button:hover {
 	background-color: rgb(166, 165, 164);
 }
+
 .sedanCard button {
 	color: var(--sedan-clr);
 }
