@@ -8,7 +8,7 @@
 }
 
 body {
-	background-color: black;
+	background-color: rgb(51, 51, 51);
 }
 
 :root {
@@ -17,7 +17,7 @@ body {
 	--luxury-clr: rgb(2, 62, 51);
 }
 
-@media (max-width: 40em) {
+@media (max-aspect-ratio: 16/9) {
 	.carCards {
 		flex-direction: column;
 	}
@@ -105,3 +105,5 @@ button:hover {
 	max-height: 10%;
 	max-width: 30%;
 }
+
+/* hei */
