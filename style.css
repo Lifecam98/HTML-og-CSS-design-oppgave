@@ -17,29 +17,18 @@ body {
 	--luxury-clr: rgb(2, 62, 51);
 }
 
-@media (max-width: 768px) {
-	.carCards {
-		display: flex;
-		flex-direction: column;
-	}
-	.sedanCard {
-		border-radius: 10px 10px 0px 0px;
-	}
-	.luxuryCard {
-		border-radius: 0px 0px 10px 10px;
-	}
-	body {
-		background-color: rgb(255, 255, 255);
-	}
-}
-
 .carCards {
 	display: flex;
 	flex-direction: row;
-	min-height: 250px;
-	max-width: 100px;
+	min-height: 600px;
+	min-width: 400px;
+	max-width: 900px;
 	padding: 50px;
 	margin: 50px;
+	@media (max-width: 768px) {
+		flex-direction: column;
+		max-width: 300px;
+	}
 }
 
 .sedanCard {
@@ -50,6 +39,10 @@ body {
 	padding: 30px;
 	padding-top: 0px;
 	border-radius: 10px 0px 0px 10px;
+	@media (max-width: 768px) {
+		border-radius: 10px 10px 0px 0px;
+		height: 400px;
+	}
 }
 
 .suvCard {
@@ -59,6 +52,9 @@ body {
 	justify-content: space-around;
 	padding: 30px;
 	padding-top: 0px;
+	@media (max-width: 768px) {
+		height: 400px;
+	}
 }
 
 .luxuryCard {
@@ -69,6 +65,10 @@ body {
 	padding: 30px;
 	padding-top: 0px;
 	border-radius: 0px 10px 10px 0px;
+	@media (max-width: 768px) {
+		border-radius: 0px 0px 10px 10px;
+		height: 400px;
+	}
 }
 h1 {
 	font-family: "Big Shoulders Display", Arial, sans-serif;
@@ -108,4 +108,8 @@ button:hover {
 	margin-top: 10px;
 	max-height: 10%;
 	max-width: 30%;
+	@media (max-width: 768px) {
+		max-height: 15%;
+		max-width: 30%;
+	}
 }
