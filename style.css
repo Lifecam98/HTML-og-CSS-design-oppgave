@@ -17,6 +17,19 @@ body {
 	--luxury-clr: rgb(2, 62, 51);
 }
 
+@media (max-width: 768px) {
+	.carCards {
+		flex-direction: column;
+	}
+	.sedanCard {
+		border-radius: 10px 10px 0px 0px;
+	}
+
+	.luxuryCard {
+		border-radius: 0px 0px 10px 10px;
+	}
+}
+
 .carCards {
 	display: flex;
 	flex-direction: row;
